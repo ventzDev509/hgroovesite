@@ -1,0 +1,112 @@
+#rangeR{
+    height: 1em;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    margin-bottom: 30px;
+    transform: translateY(-21px);
+}
+@media (prefers-color-scheme: dark) {
+
+
+    html::before {
+        background: radial-gradient(circle at center, #ffffff, #ffffff);
+    }
+
+   #rangeR input[type="range"] {
+        color: var(--blue-pal);
+        margin-left: 0;
+        --track-color: rgb(255, 255, 255);
+
+    }#range{
+        width: 100%;
+        /* margin: auto; */
+        height: 2em;
+        display: flex;
+        
+        align-items: center;
+        transform: translateX(50px);
+    }
+    input[type="range"] {
+        font-size: 1.5rem;
+        width: 100%;
+        margin: 0 0px;
+    }
+
+
+  #rangeR  input[type="range"].win10-thumb {
+        color: #3a86ff;
+    }
+}
+#rangeR input[type="range"] {
+    color: var(--primary-100);
+    --thumb-height: 0.10em;
+    --track-height: 0.1em;
+    --track-color: rgb(0, 0, 0);
+    --brightness-hover: 180%;
+    --brightness-down: 80%;
+    --clip-edges: 0.125em;
+}
+
+/* fin  */
+
+#playing-res {
+    border-bottom: .1px solid rgba(245, 184, 51, 0.781);
+    position: relative;
+    z-index: 9999999999;
+}
+
+#playing-res .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-right: 10px;
+}
+#root #playing-res .items .show{
+    position: absolute;
+    width: 83%;
+    z-index: 9999999999999;
+    height: 100%;
+    background-color: rgba(0, 255, 255, 0);
+}
+#playing-res .items .left-playing {
+    height: inherit;
+    padding: 0;
+    width: 18%;
+    height: 3.4em;
+}
+
+#root #playing-res .items .left-playing img {
+    width: 15%;
+    height: 3.4em;
+    margin: 0;
+    position: absolute;
+    z-index: 999999;
+}
+
+#root #playing-res .items .center-playing {
+    margin-right: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--write);
+    font-family: 'Roboto', sans-serif;
+}
+
+#root #playing-res .items .center-playing small {
+    color: var(--primary-100);
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+#root #playing-res .items .play-btn  {
+    font-size: 30px;
+    color: var(--primary-100);
+    transform: translateY(7px);
+cursor: pointer;
+}
+
+@media screen and (max-width:600px) {
+
+}

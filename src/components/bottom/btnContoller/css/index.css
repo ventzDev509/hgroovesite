@@ -1,0 +1,7 @@
+#shuffle{
+    background-color: var(--primary-100);
+    font-size: 70px;
+    padding: 10px;
+    transform: translateY(40px);
+    clip-path: circle();
+}

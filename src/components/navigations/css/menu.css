@@ -1,0 +1,231 @@
+/* left menu  */
+
+html #root #ItemMenu {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    font-family: 'Overpass', sans-serif;
+    letter-spacing: 0px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 32px;
+    background-color: #000000;
+}
+
+#root .none {
+    display: none;
+    width: 0;
+}
+
+#ItemMenu {
+    width: 30%;
+    height: 100vh;
+    position: relative;
+    background-color: var(--write);
+}
+
+#ItemMenu #menuLeft {
+    margin-bottom: 5px;
+    background-color: var(--dark);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#ItemMenu .allM {
+    position: absolute;
+    width: 100%;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+#ItemMenu h1 {
+    color: var(--blue-pal);
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+#root #ItemMenu .titleM {
+    color: var(--green);
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#flexM .groupe {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#flexM h4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--green);
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+
+#flexM .icons {
+    font-size: 25px;
+    color: var(--green);
+    margin-right: 18px;
+}
+
+.items_menus #flexM .titre.active {
+    color: var(--primary-100);
+    font-weight: 800;
+}
+
+
+/* main menu  */
+#main-menu {
+    position: relative;
+    width: 100%;
+    border-bottom: 1px solid var(--bg-300);
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    justify-content: space-between;
+
+    background-color: var(--dark);
+}
+
+#main-menu .left-main-menu, #main-menu .right-main-menu {
+    display: flex;
+    align-items: center;
+}
+
+#main-menu .left-main-menu .icons {
+    font-size: 30px;
+    background-color: var(--hover);
+    border-radius: 100px;
+    color: var(--write);
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#main-menu .left-main-menu .icons:hover {
+    transform: scale(1.03);
+}
+
+#main-menu .left-main-menu .icons.active {
+    color: var(--hover);
+}
+
+#user {
+    font-size: 40px;
+    color: var(--write);
+}
+
+#main-menu .right-main-menu .profile {
+    width: 50px;
+    height: 50px;
+    clip-path: circle();
+}
+
+/* menu responseive  */
+#dashboardMenue {
+    display: none;
+}
+
+#main-menu {
+    display: none;
+    /* background-color: #000000da; */
+}
+
+.slider {
+    background-color: rgb(10, 10, 10);
+    backdrop-filter: blur(10);
+    color: #fff;
+    height: 100%;
+    width: 100%;
+}
+body .css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+    width: 100%;
+    background-color: #000000;
+}
+.iconM {
+    color: #f1b91ed2;
+}
+
+@media screen and (max-width:600px) {
+    #main-menu {
+        display: none;
+        /* background-color: #000000da; */
+    }
+
+    /* #slider {
+        background-color: rgb(0, 0, 0);
+        backdrop-filter: blur(10);
+        color: #fff;
+       
+    } */
+   
+    body .css-1160xiw-MuiPaper-root-MuiDrawer-paper{
+    width: 100%;
+    background-color: #000000;
+}
+   
+
+    #root #menuRes {
+        display: block;
+        background-color: rgba(0, 0, 0, 0.774);
+        box-shadow: 0 0 30px #17212c31;
+        width: 100%;
+        backdrop-filter: blur(10px);
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        padding: 0px;
+        z-index: 1;
+    }
+
+    #root #menuRes .item-menuBottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin: auto;
+        z-index: 1;
+    }
+
+    #root #menuRes .item-menuBottom .itemM {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    #root #menuRes .item-menuBottom .itemM {
+        width: 70%;
+        color: var(--write);
+    }
+
+    #root #menuRes .item-menuBottom .itemM .icons {
+        font-size: 21px;
+        margin-bottom: -10px;
+        font-family: 'Roboto', sans-serif;
+        color: var(--write);
+    }
+
+    #root #menuRes .item-menuBottom .itemM {
+        font-size: 13px;
+        font-weight: 300;
+        color: var(--write);
+    }
+
+    #root #menuRes .item-menuBottom .itemM .bottomM {
+        color: var(--write);
+    }
+
+    #root #menuRes #menuBottom .item-menuBottom .itemM .top .icons.active {
+        color: var(--blue-pal);
+        font-weight: 700;
+    }
+
+
+}

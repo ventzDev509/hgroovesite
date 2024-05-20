@@ -1,0 +1,62 @@
+ <form action="" encType="multipart/form-data">
+          <div className="left">
+            <img src={imageURL ? imageURL : img} alt="" />
+            <Song_drop_file />
+            <TextField
+              type="file"
+              inputProps={{
+                accept: "image/*",
+              }}
+              name="cover"
+              className="none"
+              id="chooseCover"
+              onChange={handleImageChange}
+            />
+            {/* <TextField
+              type="file"
+              name="song"
+              className="none"
+              id="chooseSong"
+              onChange={handleImageChange_song}
+            /> */}
+            <label htmlFor="chooseCover">choose cover</label>
+            <label htmlFor="chooseSong">choose Song</label>
+          </div>
+          <div className="right">
+            <TextField fullWidth label="Titre" className="input" type="text" />
+            <TextField
+              fullWidth
+              label="descrition"
+              className="input"
+              type="text"
+            />
+            <TextField
+              fullWidth
+              focused={true}
+              label="date creation"
+              className="input"
+              type="date"
+            />
+            <Tag_arist_input className="tag-artist" />
+            <Button onClick={addNewSong}>Add New Song</Button>
+          </div>
+        </form>
+
+
+         //on select image add image to src
+  const handleImageChange = async (e) => {
+    const choosedFile = e.target.files[0];
+    if (choosedFile) {
+      const reader = new FileReader();
+
+      reader.addEventListener("load", () => {
+        setImageURL(reader.result);
+      });
+      setCover(choosedFile);
+
+      reader.readAsDataURL(choosedFile);
+      //   const formData = new FormData();
+      if (choosedFile) {
+      }
+    }
+  };

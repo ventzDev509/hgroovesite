@@ -1,0 +1,32 @@
+/* btn suiv  */
+
+
+
+#btn3{
+    color: var(--primary-100);
+    font-size: 16px;
+    letter-spacing: .1px;
+    cursor: pointer;
+    transition: .2s ease-out;
+    transform: translateY(20px);
+}
+
+#btn3:hover{
+    color: var(--white);
+    transition: .2s ease-out;
+}
+
+@media screen and (max-width:600px) {
+   #suivB #btn,#suivB #btn3{
+        transform: translate(-20px,8px);
+        color: var(--blue-pal);
+    }
+   #suivB #btn:hover{
+        color: var(--blue-pal);
+        transition: 0s ease-out;
+    }
+   #suivB #btn3:hover{
+        color: var(--blue-pal);
+        transition: 0s ease-out;
+    }
+}

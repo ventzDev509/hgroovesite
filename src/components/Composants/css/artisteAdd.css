@@ -1,0 +1,48 @@
+#item-artiste{
+    padding:25px 10px 10px 25px;
+    display: flex;
+    align-items: center;
+    margin: 30px 0 50px 0;
+}
+#allItem-artiste-song-add{
+    display: flex;
+    align-items: center;
+}
+#item-artiste #left_p {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-right: 30px;
+}
+#item-artiste #left_p img {
+    width: 130%;
+    height: 130%;
+    border-radius: 100px;
+}
+#item-artiste #right_d{
+    transform: translateY(20px);
+}
+#item-artiste #right_d h2{
+    color: var(--write);
+    line-height: 0px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+#item-artiste #right_d small{
+    color: var(--primary-100);
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width:600px) {
+    #item-artiste #left_p img {
+        width: 120%;
+        height: 120%;
+        border-radius: 100px;
+    }
+
+    #item-artiste #right_d{
+        transform: translateY(20px);
+        margin-left: 35px;
+    }
+}

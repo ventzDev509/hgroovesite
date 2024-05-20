@@ -1,0 +1,35 @@
+
+
+
+
+#song-solde .all-items-solde{
+    overflow-y: scroll;
+    height: 11em;
+}
+#song-solde .all-items-solde::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+#song-solde .all-items-solde .item-s {
+    display: flex;
+    justify-content: space-between;
+margin-top: 10px;
+    align-items: center;
+}
+#song-solde .all-items-solde .item-s .i {
+    display: flex;
+    align-items: center;
+
+}
+#song-solde .all-items-solde .item-s .left-s{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+border-radius: 10px;
+}
+#song-solde .all-items-solde .item-s .left-s img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}

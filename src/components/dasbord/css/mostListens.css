@@ -1,0 +1,71 @@
+
+#mostListens-dash {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    justify-content: space-between;
+    height: 96%;
+    padding-top: 10px;
+    width: 100%;
+}
+
+#mostListens-dash::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+}
+#mostListens-dash .data-dash{
+   
+    padding: 0px 0;
+    width: 48%;
+    display: flex;
+    align-items: center;
+    height: 4em;
+}
+#mostListens-dash .data-dash .item-dash-most{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+}
+#mostListens-dash .data-dash .item-dash-most .left-dash-most-listen{
+    width: 40px;
+    border-radius: 10px;
+    height: 40px;
+    margin: 9px;
+}
+#mostListens-dash .data-dash .item-dash-most h6{
+    font-size: 12px;
+    transform: translateY(4px);
+    color: var(--color-text);
+}
+#mostListens-dash .data-dash .item-dash-most .left-dash-most-listen img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+
+#mostListens-dash .data-dash .item-dash-most .right-dash-mostL h5{
+  transform: translateY(8px);
+  letter-spacing: .2px;
+  margin-bottom: 3px;
+  font-size: 14px;
+  transition: .3s ease-in-out;
+
+}
+#mostListens-dash .data-dash .item-dash-most .right-dash-mostL small{
+    color: var(--color-text);
+    font-size: 12px;
+    transition: .3s ease-in-out;
+
+}
+#mostListens-dash .data-dash .item-dash-most .right-dash-mostL h5.active{
+    color: var(--blue-pal);
+    transition: .3s ease-in-out;
+}
+#mostListens-dash .data-dash .item-dash-most .right-dash-mostL small.active{
+    color: var(--blue-pal);
+    transition: .3s ease-in-out;
+}

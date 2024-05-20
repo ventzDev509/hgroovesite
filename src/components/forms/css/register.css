@@ -1,0 +1,85 @@
+#register {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+#register form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
+    padding: 20px;
+}
+
+#register form .item {
+    display: block;
+    width: 90%;
+}
+
+#register form .item h2 {
+    color: var(--primary-100);
+    margin-bottom: 25px;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+#register form .item .input {
+    display: block;
+    width: 100%;
+    margin: 0;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+
+#register form .item .btnSave {
+    background-color: var(--primary-100);
+    font-weight: 700;
+    color: #000;
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px 0;
+    margin-bottom: 10px;
+}
+
+#register form .item .sug {
+    color: #000;
+    margin-top: 20px;
+    border-bottom: 1px solid rgba(70, 70, 233, 0.808);
+}
+
+.itemInput{
+    position: relative;
+}
+
+.errors {
+    color: red;
+    font-size: 13px;
+transform: translateY(-20px);
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width:600px) {
+    #register form {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 400px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        padding: 20px;
+    }
+}

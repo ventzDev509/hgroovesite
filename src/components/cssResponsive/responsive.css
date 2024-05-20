@@ -1,0 +1,234 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300&family=PT+Sans&family=Roboto:wght@400;700&display=swap');
+#root #item-home #main-menu .bel{
+  display: none;
+}
+@media screen and (max-width:600px) {
+  
+    #root {
+        margin-bottom: 0px;
+        padding-top: 0;
+    }
+
+    #root #flex #item-home .main {
+        margin-top: 0px;
+        padding: 0px 0 0px 0;
+    }
+
+    #root #flex #item-home .main .dis {
+        display: none;
+    }
+
+    #root .items_menus {
+        display: none;
+    }
+
+    #root #ItemMenu {
+        display: none;
+    }
+
+    #item-home .right-main-home {
+        display: none;
+    }
+
+    #root #item-home .right-main-home {
+        display: none;
+    }
+    #main-menu {
+        border-bottom: none;
+        padding: 20px 20px 0 20px;
+    }
+    
+    #root #item-home #main-menu .left-main-menu{
+       opacity: 0;
+    }
+    #root #item-home #main-menu #user{
+        display: none;
+    }
+    #root #item-home #main-menu .bel{
+        color: var(--write);
+        font-size: 24px;
+        display: block;
+    }
+    #root #item-home .left-main-home {
+        width: 100%;
+    }
+
+    #root #flex #item-home {
+        width: 100%;
+
+    }
+
+    /* header  left */
+    #root #flex #item-home .main .header {
+        display: none;
+
+    }
+
+    #root #flex #item-home .main .header .left-header {
+        width: 58%;
+        display: none;
+    }
+
+    #root #flex #item-home .main .header .left-header h2 {
+        color: rgba(0, 0, 0, 0.267);
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    #root #flex #item-home .main .header .left-header h1 {
+        color: rgba(0, 0, 0, 0.849);
+        font-weight: 600;
+        margin: 10px 0 16px 0;
+        font-size: 22px;
+    }
+
+    #root #flex #item-home .main .header .left-header h4 {
+        color: rgba(0, 0, 0, 0.945);
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    #spanE {
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.267);
+    }
+
+    /* header  right */
+
+    #root #flex #item-home .main .header .right-header {
+        width: 50%;
+        height: 100%;
+        transform: translate(0);
+        margin: 0;
+        position: unset;
+        right: 0;
+    }
+
+    /* top artiste  */
+    #root #top-artiste .item-artiste {
+        margin: 0 6px 0 10px;
+        width: 100%;
+    }
+
+    #root #top-artiste h2, #newAdd h2, #most-popular-song h2 {
+        margin: 0 0 10px 10px;
+        font-weight: 800;
+        font-size: 28px;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #top-artiste .img {
+        width: 90px;
+        height: 90px;
+        border-radius: 100px;
+        background-color: cadetblue;
+    }
+
+    #top-artiste {
+        padding: 5px 0px;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    #top-artiste .item-artiste h5 {
+        margin-top: 6px;
+        font-weight: 400;
+        text-align: center;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    #top-artiste .flexS {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 12px;
+    }
+
+    #top-artiste .item-artiste {
+        margin: 0 15px;
+    }
+
+
+    #most-popular-song .num {
+        margin-bottom: 0px;
+        margin-left: 15px;
+        font-size: 13px;
+    }
+    #root #drill  {
+        margin-bottom: 0px;
+    }
+ 
+
+    /* new add  */
+    #flex-home {
+        display: block;
+        flex-direction: column-reverse;
+        
+    }
+    #root #newAdd  {
+        margin-bottom: 10px;
+    }
+
+    #newAdd {
+        margin-top: 0px;
+        padding: 10px 0;
+        background-color: transparent;
+        box-shadow: none;
+    }
+
+    #root #newAdd .allItems .items {
+        background-color: rgba(36, 118, 240, 0);
+        width: 30%;
+        padding: 10px 0px;
+        border-radius: 6px;
+        margin: 0 21px 0 26px;
+    }
+
+    #root #newAdd .allItems .items .bot small {
+        color: var(--write);
+        font-weight: 600;
+        margin-left: 0;
+    }
+
+    #root #newAdd .allItems .items p {
+       margin-left: 0;
+       font-family: "Poppins", sans-serif;
+       font-weight: 500;
+       font-style: normal;
+    }
+
+    #newAdd .allItems .items .img {
+        width: 155px;
+        height: 148px;
+        border-radius: 0;
+        box-shadow: 0 0 10px rgba(12, 16, 20, 0);
+        background-color: rgba(240, 248, 255, 0);
+    }
+
+    #newAdd .allItems .items .img img {
+        width: 100%;
+        border-radius: 0px;
+    }
+
+    /* bottom  */
+    #bottom{
+        display: none;
+    }
+    #root #bottomH {
+        background-color: #3a86ff;
+        width: 100%;
+        position: fixed;
+        display: none;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+    }
+
+    #bottom .itemTop {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 10px 0 0px;
+    }
+}

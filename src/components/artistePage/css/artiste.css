@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300&family=PT+Sans&family=Roboto:wght@400;700&display=swap');
+
+#Artiate_page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark);
+}
+.bottom_item{
+    margin-bottom: 170px;
+}
+
+#Artiate_page .all-song-pages {
+    width: 100%;
+    height: 100vh;
+    border-radius: 5px;
+    border-left: 1px solid rgb(34, 34, 34);
+    position: relative;  
+}
+
+#Artiate_page #left-song-page {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+#root #Artiate_page .all-song-pages #left-song-page #top-info {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+#root #Artiate_page #left-song-page .top-info .me {
+    position: fixed;
+    height: 4em;
+    width: 100%;
+    z-index: 9999999999999;
+}
+
+#root #Artiate_page #left-song-page .top-info #main-menu {
+    width: 100%;
+    z-index: 9;
+    position: absolute;
+}
+
+#Artiate_page #left-song-page .top-info::-webkit-scrollbar {
+    overflow: hidden;
+    width: 0;
+}
+
+#root #Artiate_page #left-song-page .top {
+    height: 21em;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
+#Artiate_page #left-song-page .top .detay {
+    position: absolute;
+    z-index: 1;
+    top: 70px;
+    left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#Artiate_page #left-song-page .top .detay .left-detay {
+    width: 230px;
+    height: 230px;
+    border-radius: 100px;
+    margin-right: 20px;
+    border-radius: 200px;
+}
+#Artiate_page #left-song-page .top .detay .left-detay img::after {  
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 230px;
+    height: 230px;
+    background-color: var(--skelethon);
+    background: linear-gradient(
+      100deg,
+      rgba(255, 255, 255, 0) 40%,
+      rgba(255, 255, 255, .5) 50%,
+      rgba(255, 255, 255, 0) 60%
+    )  var(--skelethon);
+    background-size: 200% 100%;
+    background-position-x: 180%;
+    animation: 1s loading ease-in-out infinite;
+  }
+  @keyframes loading {
+    to {
+      background-position-x: -20%;
+    }
+  }
+
+#Artiate_page #left-song-page .top .detay .left-detay img {
+    width: 90%;
+    height: 90%;
+    border-radius: 200px;
+}
+
+#Artiate_page #left-song-page .top .detay .allDetay h1 {
+    font-size: 90px;
+    color: var(--write);
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Artiate_page #left-song-page .top .detay .allDetay .flex-feet {
+    display: flex;
+}
+
+#Artiate_page #left-song-page .top .detay .allDetay .flex-feet small {
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+#Artiate_page #left-song-page .top .detay .allDetay .flex-feet small .link {
+    color: var(--write);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#root #Artiate_page .noneP {
+    height: 0;
+    opacity: 0;
+}
+
+#root #Artiate_page #left-song-page .top .opacity {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.918), rgba(224, 30, 30, 0) 100%);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+#Artiate_page #left-song-page .play-btn-song {
+    position: absolute;
+    right: 15%;
+    bottom: 0px;
+}
+
+#Artiate_page #left-song-page .play-btn-song .play-btn {
+    background-color: var(--primary-100);
+    color: var(--write);
+    border-radius: 100px;
+    transform: translateY(25px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    cursor: pointer;
+}
+
+#Artiate_page #left-song-page .play-btn-song .play-btn:hover {
+    font-size: 72px;
+}
+
+/* bottom data  */
+#root .data {
+    position: relative;
+}
+
+#bottomData .media .item_ {
+    display: flex;
+    align-items: center;
+}
+
+#bottomData .media .item_ h3 {
+    margin-right: 30px;
+}
+
+#root #bottomData .media .item_ #suivB .suivBt #btn {
+    color: var(--blue-pal);
+    transform: translate(-20px, 0);
+}
+
+#root #bottomData .media .item_ #suivB .suivBt #btn3 {
+    color: var(--blue-pal);
+    transform: translate(-20px, 0);
+}
+
+#root .data .flex-data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 30px 20px 20px 20px;
+}
+
+#root .data .flex-data .img-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+/* left  */
+
+#root .data .flex-data .img-data .left {
+    margin-right: 10px;
+}
+
+#root .data .flex-data .img-data .right {
+    width: 100%;
+}
+
+#root .data .flex-data .img-data .left .img {
+    width: 50px;
+    height: 50px;
+
+}
+
+#root .data .flex-data .img-data .right h4 {
+    color: var(--write);
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: .8px;
+    margin-bottom: -1px;
+}
+
+#root .data .flex-data .img-data .right small {
+    color: var(--color-text);
+}
+
+/* cemter  */
+#root .data .flex-data .center-item {
+    width: 32.5%;
+}
+
+#root .data .flex-data .right-item {
+    width: 7%;
+}
+
+#root .data .flex-data .center-item .icons {
+    color: var(--color-text);
+    font-size: 18px;
+}
+
+/* fin  */
+/* right comment  */
+#Artiate_page .right-comment {
+    width: 28.7%;
+    position: relative;
+}
+
+#Artiate_page .right-comment .top-info-comment {
+    color: var(--write);
+    background-color: var(--border);
+    padding: 15px 10px;
+
+}
+
+#root #Artiate_page .right-comment .comment-body {
+    padding: 20px 10px;
+}
+
+#root #Artiate_page .right-comment .comment-body .item-comment .top-comment-infos {
+    display: flex;
+    align-items: center;
+}
+
+#Artiate_page .right-comment .comment-body .user {
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+
+#Artiate_page .right-comment .comment-body .user img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100px;
+}
+
+#Artiate_page .right-comment .comment-body .comment {
+    transform: translateY(4px);
+}
+
+#Artiate_page .right-comment .comment-body .comment h5 {
+    color: var(--write);
+    margin-bottom: -4px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+#Artiate_page .right-comment .comment-body .comment small {
+    color: var(--blue-pal);
+}
+
+#Artiate_page .right-comment .comment-body p {
+    text-align: justify;
+    word-spacing: -3px;
+    color: var(--color-text);
+    margin-top: 10px;
+    font-family: 'Noto Sans Georgian', sans-serif;
+}
+
+#Artiate_page .right-comment .comment-body .lire-plus {
+    color: var(--blue-pal);
+    margin-left: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* bottom comment  */
+#Artiate_page .bottomc {
+    position: absolute;
+    overflow: hidden;
+    bottom: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0px 10px;
+    border-top: 1px solid var(--border);
+
+}
+
+#Artiate_page .bottomc .input {
+    padding: 10px;
+    outline: none;
+    background-color: transparent;
+    border: none;
+    padding: 20px 0px;
+    color: var(--write);
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+#Artiate_page .bottomc .btnS {
+    color: var(--write);
+}
+
+/* fin  */
+
+
+/* simulaire song  */
+/* #simulaire-song {
+    margin-bottom: 0px;
+    padding: 10px;
+} */

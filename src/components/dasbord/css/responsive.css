@@ -1,0 +1,101 @@
+@media screen and (max-width:600px) {
+
+    #Dashbord .all-item-dash .left-dash {
+        display: none;
+    }
+
+    #Dashbord .all-item-dash .right-dash {
+        display: none;
+    }
+
+    #Dashbord .all-item-dash .center-dash {
+        overflow-y: scroll;
+        width: 100%;
+        padding: 10px;
+    }
+
+    #Dashbord .all-item-dash .center-dash::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+        overflow: hidden;
+    }
+
+    #Dashbord .all-item-dash .center-dash .all-items .flex-top {
+        display: block;
+    }
+
+    #Dashbord .all-item-dash .center-dash .all-items .flex-top .streams {
+        background-color: var(--dark);
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px;
+        height: 17em;
+    }
+
+    #Dashbord .all-item-dash .center-dash .all-items .flex-top .solde {
+        background-color: var(--dark);
+        width: 100%;
+        padding: 20px;
+        height: 17em;
+        margin-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    /* bottom  */
+    #Dashbord .all-item-dash .center-dash .bottom-dash {
+        display: block;
+    }
+
+    #Dashbord .all-item-dash .center-dash .bottom-dash .left-audiance {
+        height: 15em;
+        padding: 10px;
+        border-radius: 10px;
+        width: 100%;
+        margin-bottom: 20px;
+        background-color: var(--dark);
+    }
+
+    #Dashbord .all-item-dash .center-dash .bottom-dash .right-song {
+        height: 15em;
+        padding: 10px;
+        border-radius: 10px;
+        width: 100%;
+        background-color: var(--dark);
+    }
+
+    /* form add  */
+   #root #add-song form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 90%;
+        background-color: transparent;
+    }
+    #add-song form .left-form label{
+        background-color: var(--dark);
+        color: var(--write);
+        display: block;
+        text-align: center;
+        margin: 10px 0;
+        padding: 10px 0;
+        width: 250px;
+        border-radius: 5px;
+    }
+   #root #add-song form .right-form {
+        width: 250px;
+    }
+    #add-song form .right-form input{
+        width: 100%;
+        margin: 20px 0;
+        padding: 10px;
+    }
+    #add-song form .right-form  #submit{
+        background-color: var(--blue-pal);
+        border: none;
+        border-radius: 5px;
+        font-weight: 800;
+        font-size: 16px;
+        color: var(--write);
+    }
+}

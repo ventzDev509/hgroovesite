@@ -1,0 +1,166 @@
+#flex {
+    display: flex;
+}
+
+#root {
+    padding-top: 5px;
+    overflow-y: hidden;
+}
+
+#root #flex #item-home {
+    width: 100%;
+    background-color: var(--dark);
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    
+}
+
+
+
+#root #flex #item-home .flexItemHome .left-main-home .main {
+    width: 100%;
+
+    margin-top: 0px;
+    padding: 30px 0px;
+    overflow-y: scroll;
+    height: 82vh;
+    position: absolute;
+}
+
+/* width */
+#root #flex #item-home .main::-webkit-scrollbar {
+    width: 0px;
+    border-radius: 0px;
+    height: 0em;
+}
+
+/* Track */
+#root #flex #item-home .main::-webkit-scrollbar-track {
+    background: #23d3ff70;
+    border-radius: 100px;
+}
+
+/* Handle */
+#root #flex #item-home .main::-webkit-scrollbar-thumb {
+    background: rgb(245, 245, 245);
+    border-radius: 100px;
+}
+
+#root #flex #item-home .main .header {
+    height: 15em;
+    display: flex;
+    align-items: center;
+    width: 95%;
+    justify-content: space-between;
+    position: relative;
+    background-color: var(--bg);
+    border-radius: 10px;
+    margin: 30px auto;
+}
+
+#root #item-home .left-main-home {
+    width: 72.4%;
+}
+
+#root #item-home .right-main-home {
+    width: 27%;
+    border-left: 1px solid var(--border);
+}
+
+/* left header */
+#root #flex #item-home .main .header .left-header {
+    padding: 20px 30px;
+}
+
+#root #flex #item-home .main .header .left-header h2 {
+    color: rgba(168, 168, 168, 0.61);
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#root #flex #item-home .main .header .left-header h1 {
+    color: var(--write);
+    font-weight: 600;
+    margin: 20px 0 25px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#root #flex #item-home .main .header .left-header h4 {
+    color: var(--blue-pal);
+    font-weight: 540;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#spanE {
+    color: rgba(168, 168, 168, 0.61);
+    ;
+    font-family: 'Noto Sans Georgian', sans-serif;
+    font-size: 17px;
+}
+
+/* right header  */
+#root #flex #item-home .main .header .right-header {
+    width: 38%;
+    transform: translateY(-40px);
+    height: 19.7em;
+    position: absolute;
+    right: 0;
+}
+
+#root #flex #item-home .main .header .right-header img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+#root #flex #item-home .main .header .btn {
+    padding: 10px 30px 10px 40px;
+    border: none;
+    background-color: var(--blue-pal);
+    color: var(--write);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    position: relative;
+}
+
+#root #flex #item-home .main .header .btn:hover {
+    transform: scale(1.03);
+}
+
+#root #flex #item-home .main .header .btn .iconsPlay {
+    font-size: 20px;
+    position: absolute;
+    left: 20px;
+    top: 7px;
+}
+
+#flexItem {
+    display: flex;
+    align-items: center;
+}
+
+#flexItem .like {
+    width: 40px;
+    height: 40px;
+    transform: translateY(8px);
+    border-radius: 16px;
+    margin-left: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--border);
+    padding: 10px;
+}
+
+#flexItem .like .heart {
+    color: brown;
+    display: flex;
+    align-items: center;
+}

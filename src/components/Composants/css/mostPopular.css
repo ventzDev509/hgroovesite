@@ -1,0 +1,155 @@
+#most-popular-song {
+    width: 100%;
+    background-color: transparent;
+    padding: 20px 15px 20px 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#titre {
+    color: var(--write);
+    margin-left: 34px;
+    margin-top: 40px;
+    margin-bottom: -10px;
+}
+
+#most-popular-song h2 {
+    margin-bottom: 10px;
+    color: var(--write);
+    margin-left: 20px;
+    font-size: 23px;
+    font-weight: 548;
+    font-family: 'Roboto', sans-serif;
+}
+
+#most-popular-song .num {
+    margin-bottom: 10px;
+    color: var(--primary-100);
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 800;
+}
+
+
+
+#most-popular-song .content_most_song {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:10px 0 0 0 ;
+    padding: 0;
+    transition: .3s ease-in;
+    border-radius: 7px;
+}
+#most-popular-song .content_most_song:hover{
+    background-color: var(--bg-300);
+    transition: .3s ease-in;
+}
+#most-popular-song .content_most_song .item-lefts {
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    width: 50%;
+}
+
+
+#most-popular-song .content_most_song .center1 {
+    display: flex;
+    align-items: center;
+    width: 20%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+    color: var(--write);
+}
+
+#most-popular-song .content_most_song .right {
+    justify-content: space-around;
+   
+}
+
+#most-popular-song .content_most_song .center1 .icons {
+    font-size: 15px;
+    margin-right: 5px;
+    transform: translateY(2px);
+}
+
+#most-popular-song .content_most_song .center1 small {
+    font-size: 15px;
+}
+
+#most-popular-song .content_most_song .left-most-song {
+    width: 46px;
+    height: 47px;
+    background-color: var(--bg);
+    border-radius: 3px;
+    margin: 0 20px;
+}
+
+#most-popular-song .content_most_song .left-most-song img {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+}
+
+#most-popular-song .content_most_song .right-most-song h3 {
+    font-weight: 800;
+    font-size: 17px;
+    margin-bottom: -2px;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    color: var(--write);
+    transition: .1s ease-in;
+}
+
+#most-popular-song .content_most_song .right-most-song h3.active {
+    color: var(--primary-100);
+    transition: .1s ease-in;
+}
+
+#most-popular-song .content_most_song .right-most-song p {
+    color: var(--color-text);
+    font-size: 11px;
+}
+
+#most-popular-song .content_most_song .right-most-song p.active {
+    color: var(--primary-100);
+}
+
+#data #newAdd .flex_ {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+    color: var(--color-text);
+    margin: 20px 0 10px 0;
+}
+
+#data .col {
+    color: var(--primary-100);
+}
+
+
+@media screen and (max-width:600px) {
+   #root #most-popular-song {
+        width: 100%;
+        padding: 20px 0px;
+        border-radius: 10px;
+        margin:0px 0 0px 0;
+        transform: translateY(-50px);
+    } 
+   #root #most-popular-song .content_most_song{
+        padding: 5px ;
+    }
+    #most-popular-song .content_most_song .left-most-song {
+        width: 70px;
+        height: 63px;
+        background-color: var(--bg);
+        border-radius: 3px;
+        margin: 0 10px;
+    }
+}

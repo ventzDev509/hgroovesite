@@ -1,0 +1,58 @@
+#artisteFind {
+    background-color: var(--hover);
+    padding: 20px;
+    margin-bottom: 60px;
+    width: 100%;
+    border-radius: 7px;
+    margin:0 20px 10px 20px;
+}
+
+#artisteFind .item {
+    display: flex;
+    align-items: center;
+}
+
+#artisteFind .item .leftItem {
+    width: 200px;
+    height: 200px;
+    margin-right: 30px;
+    clip-path: circle();
+}
+
+#artisteFind .item .leftItem img {
+    width: 100%;
+    height: 100%;
+}
+
+#artisteFind .item .rightItem h1{
+    font-size: 50px;
+    font-weight: 800;
+}
+#artisteFind .item .rightItem .small{
+    color: var(--primary-100);
+}
+#artisteFind .item .rightItem .p{
+    color: var(--primary-100);
+    font-size: 13px;
+    letter-spacing: .5px;
+}
+
+@media screen and (max-width:600px) {
+    #artisteFind {
+        padding: 20px;
+        width: 100%;
+        margin: 20px 10px 100px 10px;
+        border-radius: 7px;
+    }
+    #artisteFind .item .rightItem h1{
+        font-size: 30px;
+        font-weight: 800;
+    }
+    #artisteFind .item .leftItem {
+        width: 100px;
+        height: 100px;
+        margin-right: 30px;
+        clip-path: circle();
+    }
+    
+}

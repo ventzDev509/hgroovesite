@@ -1,0 +1,45 @@
+#song-result {
+    margin-bottom: 30px;
+}
+#song-result h4{
+   margin-bottom: 30px;
+}
+#song-result::-webkit-scrollbar{
+    overflow: hidden;
+    width: 0;
+}
+#song-result .item-song-result {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    transition: .2s ease-in;
+    padding:5px 10px;
+    border-radius: 7px;
+    margin-bottom: 10px;
+   
+}
+#song-result .item-song-result:hover{
+    background-color: var(--bg-300);
+}
+#song-result .item-song-result .left{
+    display: flex;
+    align-items: center;
+}
+#song-result .item-song-result .left img{
+    width: 70px;
+    height: 70px;
+    margin: 0 10px;
+}
+#song-result .item-song-result .left  .infos h5{
+    margin-bottom: -2px;
+    letter-spacing: .3px;
+    margin-top: 3px;
+}
+#song-result .item-song-result .left .small{
+    color: var(--primary-100);
+    letter-spacing: .5px;
+}
+.song-result{
+    padding: 0;
+}

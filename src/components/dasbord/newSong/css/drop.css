@@ -1,0 +1,101 @@
+#drop-file {
+    padding: 10px 20px;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#drop-file .drop{
+    background-color: var(--hover);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+}
+#drop-file .div {
+    padding: 10px 15px;
+    height: 10em;
+    text-align: center;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#drop-file h5 {
+    color: var(--primary-100);
+    font-size: 12px;
+}
+
+#drop-file .btn {
+    margin-top: 20px;
+    background-color: var(--primary-100);
+    width: 100%;
+    color: black;
+}
+
+#drop-file p {
+    cursor: pointer;
+}
+
+
+
+/* form details  */
+#form-detail-song {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: var(--dark);
+}
+#form-detail-song .item{
+    background-color: var(--hover);
+    width: 30%;
+    padding: 20px 30px;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+}
+#form-detail-song .input,#demo-simple-select {
+    color: aliceblue;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+#form-detail-song .css-md26zr-MuiInputBase-root-MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline{
+border-color:  rgb(87, 83, 83);
+color: aliceblue;
+}
+ #form-detail-song #\:r1\: .MuiOutlinedInput-notchedOutline{
+    color: aliceblue;
+}
+#form-detail-song .css-14lo706>span  {
+    color: aliceblue;
+}
+
+#form-detail-song .item .input:focus{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;;
+}
+
+#form-detail-song .btn{
+    margin-top: 20px;
+    background-color: var(--primary-100);
+    width: 100%;
+    color: black;
+}
+.ds{
+    margin-bottom: 30px;
+}
+.d{
+    padding: 0;
+    height: 3em;
+    margin-bottom: 100px;
+}
+#demo-simple-select{
+    padding: 14px 5px 0px  15px;
+    color: rgb(26, 26, 26);
+}
+#demo-simple-select-label{
+    color: rgba(37, 37, 37, 0.473);
+    font-weight: 800;
+}

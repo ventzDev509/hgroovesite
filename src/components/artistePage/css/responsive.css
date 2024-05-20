@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@300&family=PT+Sans&family=Roboto:wght@400;700&display=swap');
+
+#bottomData .flex-artiste-detay, #bottomData .media {
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    #bottomData .flex-artiste-detay, #bottomData .media {
+        display: block;
+    }
+
+    #root {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    #root #Artiate_page #bottom_item {
+        margin-bottom: 60px;
+        /* margin-top: 0px; */
+    }
+  
+
+    #root #Artiate_page #ItemMenu,#root #Artiate_page #main-menu, 
+    #root #Artiate_page .right-comment  {
+        display: none;
+    }
+
+  
+
+    #root #Artiate_page .all-song-pages {
+        width: 100%;
+    }
+
+    #root #Artiate_page .all-song-pages {
+        width: 100%;
+        height: 100vh;
+        border-radius: 5px;
+        border-left: 0px solid rgba(34, 34, 34, 0);
+        margin-top: 0px;
+        border-radius: 0px;
+    }
+
+    #root #Artiate_page .all-song-pages .top-info {
+        width: 100%;
+    }
+
+    #root #Artiate_page .left-song-page {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    #root #Artiate_page #left-song-page .top {
+        height: 10em;
+        position: fixed;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
+    #root #Artiate_page #left-song-page .top .detay {
+        position: relative;
+        z-index: 1;
+        top: 0px;
+        left: 0px;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    #root #Artiate_page #left-song-page .top .detay .allDetay {
+        display: none;
+    }
+
+    #root #Artiate_page .all-song-pages #left-song-page .top .detay {
+        position: relative;
+        height: 25em;
+        width: 100%;
+
+    }
+
+    #root #Artiate_page .all-song-pages #left-song-page .top-info .mm {
+        overflow-y: scroll;
+    }
+
+    #root #Artiate_page .all-song-pages #left-song-page .top-info .mm .top .detay .left-detay {
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        margin-right: 0px;
+        border-radius: 0px;
+    }
+
+    #root #Artiate_page #left-song-page .top .detay .left-detay #img {
+        width: 100%;
+        height: 100%;
+        margin-right: 0px;
+        border-radius: 0px;
+        object-fit: cover;
+    }
+
+    #root #Artiate_page #left-song-page .top .op {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.541)ba(0, 0, 0, 0.644) 100%);
+
+    }
+
+    #root #Artiate_page #left-song-page .top .op .detail_a h1 {
+        font-size: 70px;
+        font-weight: 800;
+        color: var(--write);
+    }
+
+    #root #Artiate_page #left-song-page .top .opacity {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.76), rgba(15, 6, 6, 0) 110%);
+        position: absolute;
+        width: 100%;
+        z-index: 1;
+        height: 100%;
+    }
+
+
+
+    /* bottom donne  */
+
+    #root #Artiate_page #left-song-page #bottomData .leftF img {
+        width: 150px;
+        height: 150px;
+        border-radius: 100px;
+    }
+
+    #bottomData {
+        width: 100%;
+        height: auto;
+        padding: 30px 0px 0 0px;
+        z-index: 1;
+        position: relative;
+        display: block;
+        padding-bottom: 80px;
+        background-color: black;
+    }
+
+    #root #Artiate_page #left-song-page #bottomData .flex-artiste-detay {
+        display: flex;
+        align-items: center;
+        transform: translateY(-75px);
+        padding: 0px 0 0 15px;
+    }
+
+    #root #Artiate_page #left-song-page #bottomData .flex-artiste-detay .rightD {
+        display: block;
+        margin-left: 10px;
+        color: var(--write);
+        padding: 0px 0 0 15px;
+    }
+
+    #root #Artiate_page #left-song-page #bottomData .flex-artiste-detay .rightD p {
+        color: var(--color-text);
+        margin-top: -10px;
+        font-size: 13px;
+    }
+
+
+    #root #Artiate_page #left-song-page #bottomData .media {
+        padding: 0px 0 0 15px;
+        margin-left: 10px;
+        align-items: center;
+        transform: translateY(-80px);
+    }
+
+    #root #Artiate_page #left-song-page #bottomData .media .flex_ {
+        display: flex;
+    }
+
+    #root #Artiate_page #left-song-page #bottomData .media .item-m .p {
+        font-size: 12px;
+    }
+
+    #root #Artiate_page #left-song-page #bottomData .media .item-m {
+        margin-right: 20px;
+        display: flex;
+        align-items: center;
+    }
+
+    #root #Artiate_page #left-song-page #bottomData .media .item-m .icons {
+        font-size: 12px;
+        color: var(--color-text);
+        margin-right: 5px;
+    }
+
+    #root #Artiate_page #left-song-page #bottomData .media .item_ h3 {
+        color: var(--write);
+        margin-top: 9px;
+    }
+
+    #root #Artiate_page #left-song-page #bottomData .media .item-m p {
+        font-size: 13px;
+        color: var(--color-text);
+    }
+
+    #most-popular-song {
+
+        transform: translateY(-55px);
+    }
+
+    #root #most-popular-song .content_most_song {
+        padding: 0 15px;
+    }
+
+    /* bottom infos 
+ */
+
+    /* top song  */
+    #root #most-popular-song {
+        margin-top: 30px;
+        margin-bottom: -80px;
+        padding: 4px 0;
+        box-shadow: none;
+        height: auto;
+    }
+
+    #root #titre {
+        color: var(--write);
+        margin-left: 30px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        transform: translateY(-40px);
+    }
+
+    #root #most-popular-song .play-btn {
+        font-size: 22px;
+        margin-left: 0px;
+        margin-right: -10px;
+        transform: translateX(-6px);
+        color: var(--blue-pal);
+    }
+
+    #root #most-popular-song .num {
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    #root #hits #data #newAdd {
+        transform: translateY(0px);
+        margin: 0px;
+        padding: 0px 0 36px 1px;
+
+
+    }
+
+    #data #newAdd .flex_ {
+        display: flex;
+        justify-content: space-between;
+        padding-right: 10px;
+        color: var(--color-text);
+        margin: 0px 0 0px 0;
+    }
+
+    /* user  */
+    #item-artiste {
+        padding: 35px 10px 10px 10px;
+        display: flex;
+        align-items: center;
+        margin: 30px 25px 30px 0px;
+    }
+
+    #root #item-artiste #left_p {
+        width: 86px;
+        height: 86px;
+        border-radius: 100px;
+        margin-right: 10px;
+    }
+
+}
